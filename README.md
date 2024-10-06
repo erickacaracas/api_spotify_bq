@@ -58,7 +58,7 @@ b. Credenciais client_id e cliente_secret obtidas e armazenadas em um arquivo .j
 
  	   Obs: Também é possível versionar os arquivos criados caso seja necessária uma atualização das credenciais.
 
-### 5. Considerações finais: Com a criação do dataset para armazenamento, service account com chave e as permissões necessárias concedidas e credenciamento na API do Spotify realizados com sucesso podemos seguir para o desenvolvimento do código Python que irá executar a extração de dados. Para melhor visualização anexei o arquivo spotify_podcasts-final.ipynb  com os comentários do que é realizado em cada etapa.
+### 5. Considerações finais: Com a criação do dataset para armazenamento, service account com chave e as permissões necessárias concedidas e credenciamento na API do Spotify realizados com sucesso podemos seguir para o desenvolvimento do código Python que irá executar a extração de dados. Para melhor visualização abrir o arquivo spotify_podcasts.ipynb  com os comentários do que é realizado em cada etapa.
 
 [5.1] Para execução utilizei o Colab Enterprise no GCP, uma funcionalidade disponível no Vertex AI (Importante: para execução do script  é necessária a habilitação do billing no projeto e é gerado custo para o usuário).
 

@@ -2,6 +2,7 @@
 ### Case 2 - Etapa de Integração com API Spotify
 
 Documentação de apoio e links úteis: 
+
 https://developer.spotify.com/documentation/web-api 
 https://github.com/psf/requests
 https://requests.readthedocs.io/en/latest/

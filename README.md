@@ -1,6 +1,16 @@
 # api_spotify_bq
 ### Case 2 - Etapa de Integração com API Spotify
 
+Documentação de apoio e links úteis: 
+https://developer.spotify.com/documentation/web-api 
+https://github.com/psf/requests
+https://requests.readthedocs.io/en/latest/
+https://cloud.google.com/colab/docs/create-console-quickstart
+https://cloud.google.com/colab/pricing?hl=pt-br
+https://cloud.google.com/billing/docs/how-to/budgets?hl=pt-br
+https://github.com/psf/requests 
+
+
 Passo a passo para Conexão API do Spotify com GCP:
 
 ### 1. Criação do Dataset para armazenamento das tabelas :

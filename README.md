@@ -1,3 +1,9 @@
+Organização das atividades
+
+![trello-board-qr-code](https://github.com/user-attachments/assets/85436430-b9bd-4ed9-8b2f-50c171752c0e)
+
+Trello: https://trello.com/b/E6gW1Jf8 
+
 # api_spotify_bq
 ### Case 2 - Etapa de Integração com API Spotify
 

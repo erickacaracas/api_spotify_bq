@@ -28,7 +28,7 @@ BEGIN
   """;
 
   -- Insere os dados da tabela temporária para a tabela de destino
-  EXECUTE IMMEDIATE """ '''
+  EXECUTE IMMEDIATE """
     INSERT INTO `""" || VAR_PROJETO || '.' || VAR_DATASET_TRUSTED || '.' || VAR_TABELA_DESTINO || """` 
       (MARCA, 
       ANO, 

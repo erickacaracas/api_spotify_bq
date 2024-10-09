@@ -131,6 +131,17 @@ _**Observação**_: Consegui criar o processo de ingestão via Cloud Function, v
 
 ![ingestao_function_tabela_5](https://github.com/user-attachments/assets/b90b7280-6633-4371-b141-0f5f24f7e5d9)
 
+![image](https://github.com/user-attachments/assets/c9e84be3-fce9-48e2-af42-dc2ad0c8580d)
+
+![image](https://github.com/user-attachments/assets/beba1175-8075-496f-a3e8-4acda75b445c)
+
+![image](https://github.com/user-attachments/assets/399705ad-8e5f-4d0a-98a0-ff994dcbceb8)
+
+Permissões adicionadas para execução da Cloud Function utilizando tópico do Pub/Sub como trigger:
+
+![image](https://github.com/user-attachments/assets/7afddc05-b362-45d4-9db1-8a9817f10d4e)
+
+
 
 
 ### Fluxo para dag:

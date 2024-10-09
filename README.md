@@ -21,8 +21,18 @@ https://cloud.google.com/colab/pricing?hl=pt-br
 
 https://cloud.google.com/billing/docs/how-to/budgets?hl=pt-br
 
-https://github.com/psf/requests 
+https://cloud.google.com/dataflow/docs/tutorials/dataflow-stream-to-bigquery?hl=pt-br 
 
+https://cloud.google.com/dataflow/docs?hl=pt-br
+
+https://cloud.google.com/dataflow/docs/overview?hl=pt-br
+
+Instalação Airflow
+https://www.astronomer.io/docs/astro/cli/install-cli?tab=windowswithwinget#install-the-astro-cli
+
+https://www.astronomer.io/docs/learn/get-started-with-airflow  
+
+https://github.com/psf/requests 
 
 
 ### Passo a passo para Conexão API do Spotify com GCP:
@@ -116,7 +126,7 @@ Com a criação do dataset para armazenamento, service account com chave e as pe
 
 
 
-**Importante** - O passo a passo criado para execução hoje é realizado manualmente, existe a opção de agendarmos a execução do notebook porém a melhor alternativa seria automatizar toda a execução via Cloud Composer, utilizando o Apache Aiflow para criação e orquestração de dags com configuração de horário de execução, conexão com API e ingestão dos dados no BigQuery. Devido aos custos associados à ativação da API do Cloud Composer optei por apresentar a solução manual que pode facilmente ser adaptada para uma solução automatizada.
+**Importante** - O passo a passo criado para execução hoje é realizado manualmente, existe a opção de agendarmos a execução do notebook porém a melhor alternativa seria automatizar toda a execução via Cloud Composer, utilizando o Apache Aiflow para criação e orquestração de dags com configuração de horário de execução, conexão com API e ingestão dos dados no BigQuery ou criar um pipeline no Dataflow para transformação, agregação e demais tratamentos necessários, ingestão de dados via Pub/Sub e gravação no BigQuery. Devido aos custos associados à ativação da API do Cloud Composer optei por apresentar a solução manual que pode facilmente ser adaptada para uma solução automatizada.
 
 ![image](https://github.com/user-attachments/assets/9e14a8d5-d2aa-424c-8662-1ad0a297124b)
 

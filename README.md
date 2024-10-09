@@ -101,7 +101,7 @@ https://github.com/psf/requests
 
 Com a criação do dataset para armazenamento, service account com chave e as permissões necessárias concedidas e credenciamento na API do Spotify realizados com sucesso podemos seguir para o desenvolvimento do código Python que irá executar a extração de dados. Para melhor visualização abrir o arquivo spotify_podcasts.ipynb  com os comentários do que é realizado em cada etapa.
 
--  Para execução utilizei o Colab Enterprise no GCP, uma funcionalidade disponível no Vertex AI (Importante: para execução do script  é necessária a habilitação do billing no projeto e é gerado custo para o usuário).
+-  Para execução utilizei o Colab Enterprise no GCP, uma funcionalidade disponível no Vertex AI (Importante: para execução do script é necessária a habilitação do billing no projeto e é gerado custo para o usuário).
 
 -  Existem diversas opções para carregar o notebook de execução, para os testes do desenvolvimento utilizei as opções de criar um notebook, importar do Google Cloud Storage e importar localmente da sua máquina.
 ![image](https://github.com/user-attachments/assets/135d996e-e9e7-4660-9ade-c3f5accabddd)
@@ -116,7 +116,7 @@ Com a criação do dataset para armazenamento, service account com chave e as pe
 
 
 
-**Importante** - O passo a passo criado para execução hoje é realizado manualmente, existe a opção de agendarmos a execução do notebook porém a melhor alternativa seria automatizar toda a execução via Cloud Composer, utilizando o Apache Aiflow para criação e orquestração de dags com configuração de horário de execução, conexão com API e ingestão dos dados no BigQuery. Devido ao pouco tempo para finalização do case e custos associados à ativação da API do Cloud Composer optei por apresentar a solução manual que pode facilmente ser adaptada para uma solução automatizada.
+**Importante** - O passo a passo criado para execução hoje é realizado manualmente, existe a opção de agendarmos a execução do notebook porém a melhor alternativa seria automatizar toda a execução via Cloud Composer, utilizando o Apache Aiflow para criação e orquestração de dags com configuração de horário de execução, conexão com API e ingestão dos dados no BigQuery. Devido aos custos associados à ativação da API do Cloud Composer optei por apresentar a solução manual que pode facilmente ser adaptada para uma solução automatizada.
 
 ![image](https://github.com/user-attachments/assets/9e14a8d5-d2aa-424c-8662-1ad0a297124b)
 
@@ -125,6 +125,23 @@ Com a criação do dataset para armazenamento, service account com chave e as pe
 
 
 ![image](https://github.com/user-attachments/assets/6e8b3cfb-2f5c-47fe-86d1-37bc26da0348)
+
+
+_**Observação**_: Consegui criar o processo de ingestão via Cloud Function, vincular um tópico do Pub/Sub como trigger porém a ingestão com sucesso foi realizada somente para a tabela 5. Quando a correção for finalizada e ingestão das três tabelas solicitadas realizada com sucesso atualizarei o código (main.py e requirements.txt) na pasta function_source nesse repositório.
+
+![ingestao_function_tabela_5](https://github.com/user-attachments/assets/b90b7280-6633-4371-b141-0f5f24f7e5d9)
+
+![image](https://github.com/user-attachments/assets/c9e84be3-fce9-48e2-af42-dc2ad0c8580d)
+
+![image](https://github.com/user-attachments/assets/beba1175-8075-496f-a3e8-4acda75b445c)
+
+![image](https://github.com/user-attachments/assets/399705ad-8e5f-4d0a-98a0-ff994dcbceb8)
+
+Permissões adicionadas para execução da Cloud Function utilizando tópico do Pub/Sub como trigger:
+
+![image](https://github.com/user-attachments/assets/7afddc05-b362-45d4-9db1-8a9817f10d4e)
+
+
 
 
 ### Fluxo para dag:

@@ -27,6 +27,11 @@ https://cloud.google.com/dataflow/docs?hl=pt-br
 
 https://cloud.google.com/dataflow/docs/overview?hl=pt-br
 
+Instalação Airflow
+https://www.astronomer.io/docs/astro/cli/install-cli?tab=windowswithwinget#install-the-astro-cli
+
+https://www.astronomer.io/docs/learn/get-started-with-airflow  
+
 https://github.com/psf/requests 
 
 

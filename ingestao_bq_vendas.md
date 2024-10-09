@@ -11,12 +11,13 @@ banco de dados de sua escolha.
   ![image](https://github.com/user-attachments/assets/d3c74209-e943-42d9-a3da-a6b3e94290cb)
 
 3. Com os dados importados, modelar 4 novas tabelas e implementar processos que façam as transformações necessárias e insiram as seguintes visões nas tabelas:
-4. Tabela geral: tb_vendas
-a. Tabela 1: Consolidado de vendas por ano e mês;
-Arquivos DDL e procedure referentes â tb_vendas_consolidado_ano_mes
-b. Tabela 2: Consolidado de vendas por marca e linha;
-Arquivos DDL e procedure referentes â tb_vendas_consolidado_marca_linha
-c. Tabela 3: Consolidado de vendas por marca, ano e mês;
-Arquivos DDL e procedure referentes â tb_vendas_consolidado_marca_ano_mes
-d. Tabela 4: Consolidado de vendas por linha, ano e mês; 
-Arquivos DDL e procedure referentes â tb_vendas_consolidado_linha_ano_mes
+   
+    3.1 Tabela geral - tb_vendas: Arquivos DDL e procedure referentes â tb_vendas
+   
+      a. Tabela 1 - Consolidado de vendas por ano e mês: Arquivos DDL e procedure referentes â tb_vendas_consolidado_ano_mes
+   
+      b. Tabela 2 - Consolidado de vendas por marca e linha: Arquivos DDL e procedure referentes â tb_vendas_consolidado_marca_linha
+   
+      c. Tabela 3 - Consolidado de vendas por marca, ano e mês: Arquivos DDL e procedure referentes â tb_vendas_consolidado_marca_ano_mes
+   
+      d. Tabela 4 - Consolidado de vendas por linha, ano e mês: Arquivos DDL e procedure referentes â tb_vendas_consolidado_linha_ano_mes
